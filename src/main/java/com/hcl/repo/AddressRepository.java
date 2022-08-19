@@ -1,0 +1,8 @@
+package com.hcl.repo;
+
+import com.hcl.model.Address;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface AddressRepository extends JpaRepository<Address, Integer> {
+
+}
